@@ -44,7 +44,7 @@
 ## 🌟 Proyectos Destacados
 
 <div align="center">
-  <a href="https://github.com/tuuser/proyecto1">
+  <a href="https://github.com/Alexander2301T/EvoSyntax-EvoStudy/tree/main/EvoStudy">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=tuuser&repo=proyecto1&theme=radical" />
   </a>
   <a href="https://github.com/tuuser/proyecto2">
