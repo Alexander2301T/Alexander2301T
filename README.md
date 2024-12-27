@@ -1,4 +1,4 @@
-# ¡Hola! 👋 Soy Alexander 
+# ¡Hola! 👋 Soy Alexander Delgado Rodriguez
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tuuser)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tuuser)
@@ -34,11 +34,12 @@
 
 ## 🏆 Logros Destacados
 
-- 💼 **100+** Proyectos Completados
-- ⭐ **90%** Tasa de Éxito
-- 🏅 **10** Competencias Ganadas
-- 🌟 Certificaciones AWS y Azure
-- 🔧 Experto en Full Stack & AI
+<div align="center">
+
+![](https://img.shields.io/badge/Proyectos-100+-blue?style=for-the-badge&logo=github)
+![](https://img.shields.io/badge/Tasa_de_Éxito-90%25-green?style=for-the-badge&logo=checkmarx)
+![](https://img.shields.io/badge/Competencias-10_Ganadas-orange?style=for-the-badge&logo=counter-strike)
+</div>
 
 ## 🌟 Proyectos Destacados
 
@@ -51,17 +52,17 @@
   </a>
 </div>
 
-## 📈 Contribuciones
-
-![Snake animation](https://github.com/tuuser/tuuser/blob/output/github-contribution-grid-snake.svg)
-
 ## 🎓 Certificaciones
 
-- AWS Solutions Architect ☁️
-- Azure Developer 💻
-- Security+ 🔒
-- Network+ 🌐
-- AI Engineering 🤖
+<div align="center">
+
+![](https://img.shields.io/badge/AWS-Solutions_Architect-232F3E?style=for-the-badge&logo=amazon-aws)
+![](https://img.shields.io/badge/Azure-Developer-0089D6?style=for-the-badge&logo=microsoft-azure)
+![](https://img.shields.io/badge/Security-CompTIA_Sec+-FF0000?style=for-the-badge&logo=red-hat)
+![](https://img.shields.io/badge/Network-CompTIA_Net+-007ACC?style=for-the-badge&logo=cisco)
+![](https://img.shields.io/badge/AI-Engineering-FF6F00?style=for-the-badge&logo=tensorflow)
+
+</div>
 
 ---
 <div align="center">
