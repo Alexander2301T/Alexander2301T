@@ -29,7 +29,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tuuser&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=tuuser&layout=compact&theme=radical](https://github.com/Alexander2301T/EvoSyntax-EvoStudy/tree/main/EvoStudy)" alt="Top Languages" />
 </div>
 
 ## 🏆 Logros Destacados
