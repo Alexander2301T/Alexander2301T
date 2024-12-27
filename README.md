@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tuuser)
 [![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://tuportfolio.com)
 
-## 🚀 Senior Full Stack & AI Engineer | Costa Rica 🌴
+## 🚀 Junior Full Stack & AI Engineer | Costa Rica 🌴
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tuuser&show_icons=true&theme=radical" alt="GitHub Stats" />
