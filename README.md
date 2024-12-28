@@ -1,98 +1,103 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&random=false&width=600&lines=¡Hola!+Soy+Alexander+👋;Full+Stack+%26+AI+Engineer+🚀;Costa+Rica+🌴" alt="Typing SVG" />
-</h1>
+import React, { useState } from 'react';
+import { Rocket, Code, Brain, Cloud, Database, Shield } from 'lucide-react';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-<p align="center">
-  <a href="https://linkedin.com/in/tuuser">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/tuuser">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://tuportfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" />
-  </a>
-</p>
+const skillsData = [
+  { category: 'Frontend', value: 85, color: '#FF4D4D' },
+  { category: 'Backend', value: 80, color: '#4D79FF' },
+  { category: 'AI/ML', value: 75, color: '#FFB84D' },
+  { category: 'Cloud', value: 70, color: '#4DB8FF' },
+  { category: 'DevOps', value: 65, color: '#4DFF88' }
+];
 
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=tuuser&show_icons=true&count_private=true&hide_border=true&title_color=ff0000&icon_color=ff0000&text_color=c9d1d9&bg_color=0d1117" alt="Alexander's github stats" /> 
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=tuuser&hide_border=true&theme=dark&background=0D1117&stroke=ff0000&ring=ff0000&fire=ff0000&currStreakLabel=ff0000" alt="Alexander's github streak"/>
-</div>
+const technologies = [
+  { name: 'JavaScript', level: 'Avanzado', icon: Code, years: 4 },
+  { name: 'Python', level: 'Avanzado', icon: Brain, years: 3 },
+  { name: 'AWS', level: 'Intermedio', icon: Cloud, years: 2 },
+  { name: 'React', level: 'Avanzado', icon: Code, years: 3 },
+  { name: 'Node.js', level: 'Avanzado', icon: Database, years: 4 },
+  { name: 'TensorFlow', level: 'Intermedio', icon: Brain, years: 2 }
+];
 
-## 💻 Mis Habilidades Técnicas
+const achievements = [
+  { title: 'Proyectos Completados', value: '100+', icon: Rocket },
+  { title: 'Tasa de Éxito', value: '90%', icon: Shield },
+  { title: 'Competencias Ganadas', value: '10', icon: Trophy }
+];
 
-<div align="center">
+export default function DevProfile() {
+  const [hoveredSkill, setHoveredSkill] = useState(null);
 
-| Lenguaje/Tecnología | Nivel | Experiencia |
-|------------|-------|-------------|
-| <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> | ⭐⭐⭐⭐⚫ | 4 años |
-| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | ⭐⭐⭐⭐⚫ | 3 años |
-| <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> | ⭐⭐⭐⭐⚫ | 3 años |
-| <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> | ⭐⭐⭐⭐⚫ | 4 años |
-| <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /> | ⭐⭐⭐⚫⚫ | 2 años |
-| <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> | ⭐⭐⭐⚫⚫ | 2 años |
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white p-8">
+      {/* Header Section */}
+      <div className="text-center mb-12">
+        <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
+          Alexander
+        </h1>
+        <h2 className="text-2xl text-gray-300">Senior Full Stack & AI Engineer</h2>
+        <p className="text-lg text-gray-400 mt-2">Costa Rica 🌴</p>
+      </div>
 
-</div>
+      {/* Skills Chart */}
+      <div className="bg-gray-800 rounded-lg p-6 mb-8 shadow-xl">
+        <h3 className="text-2xl font-bold mb-6 text-center">Habilidades Técnicas</h3>
+        <div className="h-64">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={skillsData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="category" />
+              <YAxis />
+              <Tooltip />
+              <Bar dataKey="value" fill="#8884d8">
+                {skillsData.map((entry, index) => (
+                  <Cell key={index} fill={entry.color} />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
 
-## 📊 Estadísticas de Desarrollo
+      {/* Technologies Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        {technologies.map((tech) => (
+          <div
+            key={tech.name}
+            className="bg-gray-800 rounded-lg p-6 transform hover:scale-105 transition-transform"
+            onMouseEnter={() => setHoveredSkill(tech.name)}
+            onMouseLeave={() => setHoveredSkill(null)}
+          >
+            <div className="flex items-center mb-4">
+              <tech.icon className="w-8 h-8 text-blue-400 mr-3" />
+              <div>
+                <h4 className="text-xl font-semibold">{tech.name}</h4>
+                <p className="text-gray-400">{tech.level}</p>
+              </div>
+            </div>
+            <div className="w-full bg-gray-700 rounded-full h-2.5">
+              <div
+                className="bg-blue-500 h-2.5 rounded-full transition-all duration-500"
+                style={{
+                  width: hoveredSkill === tech.name ? '100%' : '85%'
+                }}
+              ></div>
+            </div>
+            <p className="text-gray-400 mt-2">{tech.years} años de experiencia</p>
+          </div>
+        ))}
+      </div>
 
-<div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tuuser&hide_border=true&layout=compact&title_color=ff0000&text_color=c9d1d9&bg_color=0d1117" />
-</div>
-
-## 🎯 Métricas de Impacto
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/100+-Proyectos%20Completados-ff0000?style=for-the-badge" />
-        <br />
-        <img src="https://progress-bar.dev/100/?title=Proyectos&color=ff0000" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/90%25-Tasa%20de%20Éxito-ff0000?style=for-the-badge" />
-        <br />
-        <img src="https://progress-bar.dev/90/?title=Éxito&color=ff0000" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/10-Competencias%20Ganadas-ff0000?style=for-the-badge" />
-        <br />
-        <img src="https://progress-bar.dev/100/?title=Victorias&color=ff0000" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 🏆 Logros y Certificaciones
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img width="100%" src="https://github-profile-trophy.vercel.app/?username=tuuser&theme=dark_lover&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 💡 Proyectos Destacados
-
-<div align="center">
-  <a href="https://github.com/tuuser/proyecto1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=tuuser&repo=proyecto1&hide_border=true&title_color=ff0000&text_color=c9d1d9&bg_color=0d1117" />
-  </a>
-  <a href="https://github.com/tuuser/proyecto2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=tuuser&repo=proyecto2&hide_border=true&title_color=ff0000&text_color=c9d1d9&bg_color=0d1117" />
-  </a>
-</div>
-
-## 📈 Contribuciones
-
-<div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=tuuser&hide_border=true&bg_color=0d1117&color=ff0000&line=ff0000&point=ff0000&area=true" />
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=120&section=footer"/>
-</div>
+      {/* Achievements */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {achievements.map((achievement) => (
+          <div key={achievement.title} className="bg-gray-800 rounded-lg p-6 text-center">
+            <achievement.icon className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
+            <h4 className="text-xl font-semibold mb-2">{achievement.title}</h4>
+            <p className="text-3xl font-bold text-blue-400">{achievement.value}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
