@@ -1,96 +1,110 @@
 <h1 align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=3000&pause=1000&color=FF4242&center=true&vCenter=true&random=false&width=435&lines=Alexander+%F0%9F%9A%80;Full+Stack+Engineer;AI+Developer" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=1000&color=FF4242&center=true&vCenter=true&random=false&width=500&height=70&lines=Alexander+%F0%9F%9A%80" alt="Typing SVG" /></a>
 </h1>
 
-<p align="center">
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=alexander&data=followers,repositories,stars,commits&theme=radical" alt="GitHub Profile Stats"/>
-</p>
-
 <div align="center">
-  
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=alexander&theme=radical&hide_border=true)](https://git.io/streak-stats)
-  
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FF7070&center=true&vCenter=true&random=false&width=500&lines=Full+Stack+%26+AI+Engineer;Costa+Rica+%F0%9F%8C%B4;Innovative+Solutions+Developer" alt="Typing SVG" /></a>
 </div>
 
-<h2 align="center">🧠 Ecosystem of Knowledge</h2>
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</div>
+
+<br>
+
+<h2 align="center">🎯 Mi Enfoque Profesional</h2>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,vue,angular,typescript&theme=dark" /><br>
+  <sub><sup>Frontend Development Expert</sup></sub>
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=nodejs,python,java,go&theme=dark" /><br>
+  <sub><sup>Backend Development Specialist</sup></sub>
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,python,r&theme=dark" /><br>
+  <sub><sup>AI & Machine Learning Engineer</sup></sub>
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,jenkins&theme=dark" /><br>
+  <sub><sup>DevOps & Cloud Architecture</sup></sub>
+</div>
+
+<br>
+
+<h2 align="center">🌟 Áreas de Experiencia</h2>
 
 ```mermaid
+%%{init: { 'theme': 'dark' } }%%
 mindmap
   root((Alexander))
-    Full Stack
-      Frontend
-        React
-        Vue
-        Angular
-      Backend
-        Node.js
-        Python
-        Databases
-    AI & ML
+    Frontend Magic
+      React Mastery
+      Vue Expertise
+      Angular Pro
+    Backend Power
+      Node.js
+      Python
+      Databases
+    AI Revolution
       Deep Learning
       Computer Vision
-      NLP
-    DevOps
-      AWS
-      Docker
-      CI/CD
-    Architecture
-      Microservices
-      Serverless
-      Cloud Native
+      NLP Master
+    Cloud & DevOps
+      AWS Solutions
+      Docker Expert
+      CI/CD Master
 ```
 
-<h2 align="center">💫 Technical Expertise</h2>
+<br>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,react,vue,angular,nodejs,aws,docker,kubernetes,tensorflow,pytorch" />
-</p>
+<h2 align="center">💪 Logros Profesionales</h2>
 
 <div align="center">
-  
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alexander&layout=compact&theme=radical&hide_border=true)
-  
+  <table border="0">
+    <tr>
+      <td align="center" width="300">
+        <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/code.png" alt="code"/>
+        <br>
+        <strong>100+ Proyectos</strong>
+        <br>
+        Completados Exitosamente
+      </td>
+      <td align="center" width="300">
+        <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/analytics.png" alt="performance"/>
+        <br>
+        <strong>90% Success Rate</strong>
+        <br>
+        En Entregas de Proyectos
+      </td>
+      <td align="center" width="300">
+        <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/trophy.png" alt="trophy"/>
+        <br>
+        <strong>10+ Competencias</strong>
+        <br>
+        Ganadas en Hackathons
+      </td>
+    </tr>
+  </table>
 </div>
 
-<h2 align="center">📊 GitHub Statistics</h2>
+<br>
 
 <div align="center">
-  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alexander&show_icons=true&theme=radical&hide_border=true)
-  
-</div>
-
-<h2 align="center">🏆 GitHub Trophies</h2>
-
-<div align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=alexander&theme=radical&no-frame=true&column=4&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
-
-<h2 align="center">📈 Contribution Graph</h2>
-
-<div align="center">
-  
-  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alexander&theme=redical&hide_border=true)
-  
-</div>
-
-<h2 align="center">🌟 Featured Projects</h2>
-
-<div align="center">
-  <a href="https://github.com/alexander/project1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexander&repo=project1&theme=radical&hide_border=true" />
+  <h2>📫 Contáctame</h2>
+  <a href="https://linkedin.com/in/tuuser" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://github.com/alexander/project2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexander&repo=project2&theme=radical&hide_border=true" />
+  <a href="mailto:tuemail@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://twitter.com/tuuser" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
-</div>
+<br>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=alexander&color=ff4242&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer" width="100%" />
 </div>
