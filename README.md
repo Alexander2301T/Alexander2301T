@@ -212,7 +212,7 @@ mindmap
 <h2 align="center">📫 Contacto Profesional</h2>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/tu-perfil](https://www.linkedin.com/in/alexander-josue-delgado-rodriguez-7439962bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+  <a href="https://www.linkedin.com/in/alexander-josue-delgado-rodriguez-7439962bb/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
